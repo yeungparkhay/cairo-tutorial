@@ -1,5 +1,5 @@
-# To compile: cairo-compile ex_1-1.cairo --output ex_1-1_compiled.json
-# To run: cairo-run --program=ex_1-1_compiled.json --print_output --layout=small
+# To compile: cairo-compile ex_1.cairo --output ex_1_compiled.json
+# To run: cairo-run --program=ex_1_compiled.json --print_output --layout=small
 
 %builtins output
 
