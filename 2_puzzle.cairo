@@ -1,7 +1,9 @@
 # Exercise 2 - 15 puzzle
 
-from starkware.cairo.common.registers import get_fp_and_pc
+# To compile: cairo-compile 2_puzzle.cairo --output 2_puzzle_compiled.json
+# To run: cairo-run --program=2_puzzle_compiled.json --print_output --layout=small
 
+from starkware.cairo.common.registers import get_fp_and_pc
 
 # Define a struct that represents a tile location
 struct Location:
